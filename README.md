@@ -15,13 +15,11 @@ Indirizzo con GitHub Pages: https://matteomangoni2-svg.github.io/cometisalvounam
 
 I caratteri (Be Vietnam Pro e Lato) sono dentro il sito: la pagina non chiede niente a Google Fonts.
 
-## Pubblicare con GitHub Pages
+## Pubblicazione
 
-1. Nella repository apri **Settings → Pages**.
-2. In **Build and deployment** scegli **Deploy from a branch**, poi il ramo **main** e la cartella **/ (root)**. Clicca **Save**.
-3. Dopo un paio di minuti il sito è online all'indirizzo qui sopra.
+GitHub Pages è attivo e pubblica il ramo **gh-pages**. Ogni modifica al sito va caricata sia su `main` sia su `gh-pages`: è quello che arriva online.
 
-Con un account GitHub gratuito la repository deve essere pubblica: tutto quello che c'è dentro si può leggere.
+Con un account GitHub gratuito la repository deve restare pubblica: tutto quello che c'è dentro si può leggere.
 
 ## Da completare prima di far girare la pagina
 
