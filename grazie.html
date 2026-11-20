@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fatto! Il tuo gioco sta arrivando · Come ti salvo una mamma</title>
+<meta name="description" content="Il gioco gratis di «Come ti salvo una mamma» sta arrivando nella tua email.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#55BEC8">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/be-vietnam-pro-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/lato-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/fonts.css">
+<style>
+body{margin:0;background:#55BEC8}
+a{color:#11707D}a:hover{color:#0F2A2F}
+.btn{transition:transform .15s ease,background-color .15s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-primary:hover{background-color:#B92A08 !important}
+.btn-ghost:hover{background-color:rgba(15,42,47,.08) !important}
+a:focus-visible{outline:3px solid #0F2A2F;outline-offset:3px}
+@media (max-width:480px){.hide-sm{display:none !important}}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+[hidden]{display:none !important}
+.fase{display:contents}
+.fase-prima{display:none}
+.prima-uscita .fase-prima{display:contents}
+.prima-uscita .fase-vendita{display:none}
+</style>
+<script>
+/* Fino al 24 novembre 2026 la pagina mostra la versione «Prima dell'uscita», poi quella «Libro in vendita».
+   Per vederle tutte e due: aggiungi ?fase=prima oppure ?fase=vendita in fondo all'indirizzo. */
+(function () {
+  var f = new URLSearchParams(location.search).get('fase');
+  if (f === 'prima' || (f !== 'vendita' && Date.now() < Date.parse('2026-11-24T00:00:00+01:00'))) {
+    document.documentElement.classList.add('prima-uscita');
+  }
+})();
+</script>
+</head>
+<body>
+<div style="position: relative; overflow: hidden; box-sizing: border-box; min-height: 1180px; padding: 20px 24px 0; font-family: Lato, 'Helvetica Neue', Arial, sans-serif; font-size: 18px; line-height: 1.6; color: #0F2A2F; background: linear-gradient(180deg, #55BEC8 0, #55BEC8 calc(100% - 150px), #1D9EB0 calc(100% - 150px), #1D9EB0 100%);">
+<header style="max-width: 1100px; margin: 0 auto;">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 16px; background: #FBF5EC; border-radius: 999px; padding: 8px 8px 8px 10px; box-shadow: 0 12px 32px -18px rgba(15,42,47,.55);">
+<a href="./" aria-label="Come ti salvo una mamma, torna alla pagina del libro" style="display: flex; align-items: center; gap: 12px; text-decoration: none;">
+<img src="assets/logo.webp" alt="" width="256" height="260" style="display: block; width: 48px; height: auto;">
+<img class="hide-sm" src="assets/titolo.png" alt="Come ti salvo una mamma" width="1086" height="369" style="display: block; width: 121px; height: auto;">
+</a>
+<a class="btn btn-ghost" href="./" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 999px; border: 2px solid #0F2A2F; background: transparent; color: #0F2A2F; font: 700 15px/1 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; text-decoration: none; white-space: nowrap;">Torna alla pagina del libro</a>
+</div>
+</header>
+
+<main style="max-width: 1100px; margin: clamp(28px, 4vw, 44px) auto 0; display: flex; flex-wrap: wrap; align-items: flex-end; gap: 24px 48px;">
+<div style="flex: 1 1 560px; min-width: 0; margin-bottom: 110px; background: #FBF5EC; border-radius: 32px; padding: clamp(28px, 3.5vw, 44px); box-shadow: 0 40px 80px -40px rgba(6,52,60,.6);">
+<span aria-hidden="true" style="display: flex; align-items: center; justify-content: center; width: 64px; height: 64px; border-radius: 50%; background: #3EA06F;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" style="stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round;"><path d="M5 12.5l4.2 4.2L19 7"></path></svg></span>
+<h1 style="margin: 20px 0 0; font: 800 clamp(34px, 3.6vw, 48px)/1.08 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; letter-spacing: -0.025em; color: #0F2A2F; text-wrap: balance;">Fatto! Il tuo gioco sta arrivando.</h1>
+<p style="margin: 16px 0 0; font-size: 19px; line-height: 1.6; color: #2E4B50;">Controlla la tua email nei prossimi minuti. Se non la vedi, guarda in Spam o in Promozioni e spostala nella posta principale.</p>
+<div style="margin-top: 24px; padding: 22px 24px; border-radius: 22px; background: #FFFFFF;">
+<p style="margin: 0; font: 800 13px/1.3 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #11707D;">Mentre aspetti</p>
+<p style="margin: 8px 0 0; font-size: 18px; line-height: 1.6; color: #0F2A2F;">Rispondi alla domanda da cui parte tutto il libro. <strong>Come sono i bambini adesso?</strong> Nel libro, per ognuna delle cinque risposte, ci sono 6 giochi pronti.</p>
+</div>
+<div style="margin-top: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 18px 24px; padding: 20px 24px; border-radius: 22px; background: #0F2A2F;">
+<img src="assets/copertina.webp" alt="" aria-hidden="true" width="1000" height="1250" style="display: block; width: 64px; height: auto; border-radius: 3px; box-shadow: 0 8px 18px -8px rgba(0,0,0,.6);">
+<div class="fase fase-vendita"><p style="margin: 0; flex: 1 1 240px; min-width: 0; font: 700 18px/1.45 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; color: #FBF5EC;">Tutti i 30 giochi e i 10 giochi a voce sono nel libro, su Amazon a 18,62 €.</p>
+<a class="btn btn-primary" href="#amazon" style="display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 999px; background: #D7330D; color: #FFFFFF; font: 800 16px/1.2 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; text-decoration: none; white-space: nowrap;">Compralo su Amazon</a></div>
+<div class="fase fase-prima"><p style="margin: 0; flex: 1 1 240px; min-width: 0; font: 700 18px/1.45 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; color: #FBF5EC;">Tutti i 30 giochi e i 10 giochi a voce sono nel libro: su Amazon dal 24 novembre, a 18,62 €.</p></div>
+</div>
+<div style="margin-top: 24px; padding-top: 20px; border-top: 1px solid #E6DACA;">
+<p style="margin: 0; font: 800 13px/1.3 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: #11707D;">Passaparola</p>
+<p style="margin: 6px 0 0; font-size: 18px; line-height: 1.55; color: #0F2A2F;">Conosci qualcuno che alle sei di sera avrebbe bisogno di un salvagente? Mandagli questa pagina.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px;">
+<a class="btn btn-ghost" href="#whatsapp" style="display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 18px; border-radius: 999px; border: 2px solid #0F2A2F; background: transparent; color: #0F2A2F; font: 800 15px/1.2 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; text-decoration: none;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F2A2F" style="stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;"><circle cx="18" cy="5.5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="18.5" r="2.5"></circle><path d="M8.2 10.8l7.6-4.1M8.2 13.2l7.6 4.1"></path></svg>WhatsApp</a>
+<a class="btn btn-ghost" href="#copia-link" style="display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 0 18px; border-radius: 999px; border: 2px solid #0F2A2F; background: transparent; color: #0F2A2F; font: 800 15px/1.2 'Be Vietnam Pro', 'Segoe UI', system-ui, sans-serif; text-decoration: none;"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0F2A2F" style="stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"></path><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"></path></svg>Copia il link</a>
+</div>
+<p style="margin: 16px 0 0; font-size: 16px; line-height: 1.55; color: #2E4B50;">Ogni settimana un gioco da fare subito su Instagram, Facebook e YouTube.</p>
+</div>
+</div>
+<div aria-hidden="true" style="flex: 0 1 400px; min-width: 0; margin: 0 auto; padding-bottom: 36px; display: flex; flex-direction: column; align-items: center;">
+<img src="assets/bimbi-tappeto.webp" alt="" width="1327" height="909" style="display: block; width: 100%; height: auto;">
+</div>
+</main>
+</div>
+<script src="assets/site.js" defer></script>
+</body>
+</html>
