@@ -2,7 +2,7 @@
 
 La pagina del libro «Come ti salvo una mamma» di Cristina Tosi. Presenta il libro, regala un gioco in cambio dell'email e porta all'acquisto su Amazon.
 
-Indirizzo: https://matteomangoni2-svg.github.io/cometisalvounamamma/ — il dominio www.cometisalvounamamma.it (Aruba) si collega quando i suoi DNS sono pronti.
+Indirizzo: https://www.cometisalvounamamma.it/ (dominio su Aruba, pubblicato con GitHub Pages)
 
 ## Cosa c'è
 
@@ -17,7 +17,7 @@ I caratteri (Be Vietnam Pro e Lato) sono dentro il sito: la pagina non chiede ni
 
 ## Pubblicazione
 
-GitHub Pages è attivo e pubblica il ramo **gh-pages**. Per collegare il dominio www.cometisalvounamamma.it si aggiunge un file `CNAME` con quel nome, ma solo dopo aver impostato i DNS su Aruba: altrimenti il sito non si apre più. Ogni modifica al sito va caricata sia su `main` sia su `gh-pages`: è quello che arriva online.
+GitHub Pages è attivo e pubblica il ramo **gh-pages**. Il file `CNAME` collega il sito al dominio www.cometisalvounamamma.it: non va cancellato. I DNS su Aruba puntano già a GitHub: se si toglie il file, l'indirizzo www.cometisalvounamamma.it mostra «Site not found». Ogni modifica al sito va caricata sia su `main` sia su `gh-pages`: è quello che arriva online.
 
 Con un account GitHub gratuito la repository deve restare pubblica: tutto quello che c'è dentro si può leggere.
 
