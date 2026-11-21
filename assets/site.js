@@ -4,8 +4,8 @@
    Scrivi qui gli indirizzi quando li hai, tra gli apici. Finché un valore è vuoto, il link resta com'è. */
 var SITO = {
   amazon: 'https://www.amazon.it/dp/B0HRRVKN4Y',     // pagina Amazon del libro
-  privacy: '',    // informativa privacy
-  contatti: '',   // es. 'mailto:nome@esempio.it'
+  privacy: 'https://www.cometisalvounamamma.it/privacy.html',    // informativa privacy
+  contatti: 'mailto:info@cometisalvounamamma.it',
   instagram: '',
   facebook: '',
   youtube: ''
