@@ -3,7 +3,7 @@
 /* ===== Link da completare =====
    Scrivi qui gli indirizzi quando li hai, tra gli apici. Finché un valore è vuoto, il link resta com'è. */
 var SITO = {
-  amazon: '',     // pagina Amazon del libro, es. 'https://www.amazon.it/dp/XXXXXXXXXX'
+  amazon: 'https://www.amazon.it/dp/B0HRRVKN4Y',     // pagina Amazon del libro
   privacy: '',    // informativa privacy
   contatti: '',   // es. 'mailto:nome@esempio.it'
   instagram: '',
